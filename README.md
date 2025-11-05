@@ -1,1 +1,0 @@
-# T9_2411102441228_Muhammad-Rizky-Raditya
