@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hitung Saldo Bank</title>
+</head>
+<body>
+    <h2>Form Perhitungan Saldo Akhir Nasabah</h2>
+    <form action="proses_soal1.php" method="post">
+        <table>
+            <tr>
+                <td>Saldo Awal (Rp.)</td>
+                <td>:</td>
+                <td><input type="number" name="saldo_awal"></td>
+            </tr>
+            <tr>
+                <td>Bunga Perbulan (%)</td>
+                <td>:</td>
+                <td><input type="text" name="bunga" placeholder="contoh: 0.25"></td>
+            </tr>
+            <tr>
+                <td>Lama Bulan</td>
+                <td>:</td>
+                <td><input type="number" name="bulan"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td>
+                    <input type="submit" value="Hitung">
+                    <input type="reset" value="Reset">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
